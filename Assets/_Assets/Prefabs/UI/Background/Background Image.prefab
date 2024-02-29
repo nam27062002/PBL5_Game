@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 232, y: 160}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8338079546240655404
 CanvasRenderer:
@@ -90,3 +90,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundImageEntry: {fileID: 11400000, guid: 23f138de3c47fb74491b24768293078c, type: 2}
   backgroundImage: {fileID: 3782781699390160363}
+  backgroundIndex: 0

@@ -1,3 +1,4 @@
+using System;
 using Scripts.Initialize;
 using Scripts.ScriptableObject;
 using UnityEngine;
@@ -16,7 +17,12 @@ namespace Scripts.UI.Background
             base.Awake();
             SetBackground(backgroundIndex);
         }
-
+#if UNITY_EDITOR
+        private void OnValidate()
+        {
+            SetBackground(backgroundIndex);
+        }
+#endif
         private void SetBackground(int index)
         {
             if (backgroundImageEntry == null || backgroundImageEntry.Sprites == null || backgroundImageEntry.Sprites.Length == 0)
