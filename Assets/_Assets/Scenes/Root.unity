@@ -166,6 +166,8 @@ MonoBehaviour:
   lookupEntries:
   - type: Cheat Manager
     prefab: {fileID: 4553111289275880563, guid: 11879ab6be0c6a045b52360e1b49910e, type: 3}
+  - type: API Manager
+    prefab: {fileID: 3090550501103655222, guid: b9fe8e9ed6573c347908e5e49b5e0ffd, type: 3}
   controlledInstantiate: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
